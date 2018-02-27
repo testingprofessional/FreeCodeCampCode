@@ -2,10 +2,8 @@ function diffArray(arr1, arr2) {
   var newArr = [];
   
   function onlyInFirst(firstArr, secondArr) {
-  // Looping through an array to find elements that don't exist in another array
     for (var i=0;i<firstArr.length;i++) {
       if (secondArr.indexOf(firstArr[i]) === -1) {
-        // Pushing the elements unique to first to newArr
         newArr.push(firstArr[i]);
       }
     }

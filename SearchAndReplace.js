@@ -9,13 +9,10 @@ function myReplace(str, before, after) {
         }
     }
 
-    var beforeUpperCase = "";
     var afterUpperCase = "";
     isUppercase(before, after);
     var res = str.replace(before, afterUpperCase);
 
-    console.log(afterUpperCase);
-    console.log(res);
     return res;
   }
   
